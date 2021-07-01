@@ -43,7 +43,7 @@ $VIPassword = 'FILL-ME-IN'
 
 # Specifies whether deployment is to an ESXi host or vCenter Server
 # Use either ESXI or VCENTER or VMC
-$DeploymentTarget = "VMC"
+$DeploymentTarget = "ESXI"
 
 # Full Path to both the Nested ESXi 6.7 VA + extracted VCSA 6.7 ISO
 $NestedESXiApplianceOVA = 'C:\Users\Administrator\Desktop\VMC-Customer0\Nested_ESXi6.7u3_Appliance_Template_v1.ova'
